@@ -43,3 +43,9 @@ python nerf_pipeline.py --obj_name lego_demo1 \
                         --images ./data/train \
                         --tensorf_repo ./TensoRF
 ```
+
+## Rendering Notes (TensoRF)
+The render.py script included in this project is used to generate turntable view renderings from trained models.
+
+# Note:
+This rendering script was manually added to the TensoRF directory. It is not part of the original TensoRF repository.
