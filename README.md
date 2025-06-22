@@ -29,23 +29,23 @@ conda activate gaussian
 pip install -r requirements.txt
 ```
 
-## Training
-# Gaussian Splatting
+# Training
+## Gaussian Splatting
 ```bash
 python gaussian_pipeline.py --images_dir ./data/train \
                             --gaussian_repo ./gaussian-splatting \
                             --exp_name lego_demo2 \
 ```
 
-# TensoRF / NeRF
+## TensoRF / NeRF
 ```bash
 python nerf_pipeline.py --obj_name lego_demo1 \
                         --images ./data/train \
                         --tensorf_repo ./TensoRF
 ```
 
-## Rendering Notes (TensoRF)
+# Rendering Notes (TensoRF)
 The render.py script included in this project is used to generate turntable view renderings from trained models.
 
-# Note:
+## Note:
 This rendering script was manually added to the TensoRF directory. It is not part of the original TensoRF repository.
